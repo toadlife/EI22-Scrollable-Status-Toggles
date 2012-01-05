@@ -35,7 +35,6 @@
     <public type="string" name="title_toggle_airplane" id="0x7f080013" />
     <public type="string" name="title_toggle_flashlight" id="0x7f080014" />
     <public type="string" name="title_toggle_wimax" id="0x7f080015" />
-    <public type="string" name="title_toggle_reboot" id="0x7f080016" />
     <public type="string" name="title_button_modes" id="0x7f080017" />
     <public type="string" name="pref_brightness_mode_title" id="0x7f080018" />
     <public type="string" name="pref_brightness_mode_summary" id="0x7f080019" />
@@ -51,6 +50,7 @@
     <public type="string" name="cm_sound_mode_soundVib_sound_vib_silent" id="0x7f080023" />
     <public type="string" name="cm_sound_mode_vib_silent" id="0x7f080024" />
     <public type="string" name="power_widget_pref_group" id="0x7f080025" />
+    <public type="string" name="title_toggle_reboot" id="0x7f080016" />
     <public type="string" name="title_toggle_shutdown" id="0x7f080026" />
     <public type="id" name="icon" id="0x7f090000" />
     <public type="id" name="grabber" id="0x7f090001" />

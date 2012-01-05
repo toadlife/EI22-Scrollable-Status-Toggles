@@ -38,8 +38,6 @@
 
 .field public static final BUTTON_BRIGHTNESS:Ljava/lang/String; = "toggleBrightness"
 
-.field public static final BUTTON_FLASHLIGHT:Ljava/lang/String; = "toggleFlashlight"
-
 .field public static final BUTTON_GPS:Ljava/lang/String; = "toggleGPS"
 
 .field public static final BUTTON_LOCKSCREEN:Ljava/lang/String; = "toggleLockScreen"
@@ -229,30 +227,6 @@
 
     .line 66
     sget-object v0, Lcom/lidroid/systemui/quickpanel/PowerButton;->BUTTONS:Ljava/util/HashMap;
-
-    const-string v1, "toggleFlashlight"
-
-    const-class v2, Lcom/lidroid/systemui/quickpanel/FlashlightButton;
-
-    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 67
-    sget-object v0, Lcom/lidroid/systemui/quickpanel/PowerButton;->BUTTONS:Ljava/util/HashMap;
-
-    const-string v1, "toggleReboot"
-
-    const-class v2, Lcom/lidroid/systemui/quickpanel/RebootButton;
-
-    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 68
-    sget-object v0, Lcom/lidroid/systemui/quickpanel/PowerButton;->BUTTONS:Ljava/util/HashMap;
-
-    const-string v1, "toggleShutdown"
-
-    const-class v2, Lcom/lidroid/systemui/quickpanel/ShutdownButton;
-
-    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 72
     new-instance v0, Ljava/util/HashMap;

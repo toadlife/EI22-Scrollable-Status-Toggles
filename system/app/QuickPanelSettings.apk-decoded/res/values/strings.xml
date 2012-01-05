@@ -22,7 +22,6 @@
     <string name="title_toggle_airplane">Toggle Airplane mode</string>
     <string name="title_toggle_flashlight">Toggle LED flashlight</string>
     <string name="title_toggle_wimax">Toggle 4G</string>
-    <string name="title_toggle_reboot">Reboot action</string>
     <string name="title_button_modes">Button modes</string>
     <string name="pref_brightness_mode_title">Brightness modes</string>
     <string name="pref_brightness_mode_summary">Choose how the brightness button changes modes</string>
@@ -38,5 +37,4 @@
     <string name="cm_sound_mode_soundVib_sound_vib_silent">Sound+Vibrate/Sound/Vibrate/Silent</string>
     <string name="cm_sound_mode_vib_silent">Vibrate/Silent</string>
     <string name="power_widget_pref_group">Quick Panel Settings</string>
-    <string name="title_toggle_shutdown">Shutdown action</string>
 </resources>

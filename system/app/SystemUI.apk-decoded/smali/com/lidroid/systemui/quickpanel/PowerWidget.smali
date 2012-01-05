@@ -13,7 +13,7 @@
 
 
 # static fields
-.field private static final BUTTONS_DEFAULT:Ljava/lang/String; = "toggleWifi|toggleBluetooth|toggleGPS|toggleSound|toggleWimax|toggleFlashlight|toggleAutoRotate|toggleMobileData|toggleSync|toggleAirplane|toggleBrightness|toggleScreenTimeout|toggleLockScreen|toggleReboot|toggleShutdown"
+.field private static final BUTTONS_DEFAULT:Ljava/lang/String; = "toggleWifi|toggleBluetooth|toggleGPS|toggleWimax|toggleMobileData|toggleSound|toggleSync|toggleAirplane|toggleBrightness|toggleAutoRotate|toggleScreenTimeout|toggleLockScreen"
 
 .field public static final BUTTON_DELIMITER:Ljava/lang/String; = "|"
 
@@ -678,7 +678,7 @@
     invoke-static {v11, v9}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 169
-    const-string v4, "toggleWifi|toggleBluetooth|toggleGPS|toggleSound|toggleWimax|toggleFlashlight|toggleAutoRotate|toggleMobileData|toggleSync|toggleAirplane|toggleBrightness|toggleScreenTimeout|toggleLockScreen|toggleReboot|toggleShutdown"
+    const-string v4, "toggleWifi|toggleBluetooth|toggleGPS|toggleWimax|toggleMobileData|toggleSound|toggleSync|toggleAirplane|toggleBrightness|toggleAutoRotate|toggleScreenTimeout|toggleLockScreen"
 
     .line 171
     :cond_1

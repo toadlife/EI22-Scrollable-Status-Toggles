@@ -80,22 +80,6 @@
 
     sget-object v0, Lcom/lidroid/a/a;->a:Ljava/util/HashMap;
 
-    const-string v1, "toggleFlashlight"
-
-    new-instance v2, Lcom/lidroid/a/b;
-
-    const-string v3, "toggleFlashlight"
-
-    const v4, 0x7f080014
-
-    const-string v5, "lidroid:drawable/stat_flashlight_on"
-
-    invoke-direct {v2, v3, v4, v5}, Lcom/lidroid/a/b;-><init>(Ljava/lang/String;ILjava/lang/String;)V
-
-    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    sget-object v0, Lcom/lidroid/a/a;->a:Ljava/util/HashMap;
-
     const-string v1, "toggleGPS"
 
     new-instance v2, Lcom/lidroid/a/b;
@@ -160,22 +144,6 @@
 
     sget-object v0, Lcom/lidroid/a/a;->a:Ljava/util/HashMap;
 
-    const-string v1, "toggleReboot"
-
-    new-instance v2, Lcom/lidroid/a/b;
-
-    const-string v3, "toggleReboot"
-
-    const v4, 0x7f080016
-
-    const-string v5, "lidroid:drawable/stat_reboot"
-
-    invoke-direct {v2, v3, v4, v5}, Lcom/lidroid/a/b;-><init>(Ljava/lang/String;ILjava/lang/String;)V
-
-    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    sget-object v0, Lcom/lidroid/a/a;->a:Ljava/util/HashMap;
-
     const-string v1, "toggleScreenTimeout"
 
     new-instance v2, Lcom/lidroid/a/b;
@@ -185,22 +153,6 @@
     const v4, 0x7f08000f
 
     const-string v5, "lidroid:drawable/stat_screen_timeout_on"
-
-    invoke-direct {v2, v3, v4, v5}, Lcom/lidroid/a/b;-><init>(Ljava/lang/String;ILjava/lang/String;)V
-
-    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    sget-object v0, Lcom/lidroid/a/a;->a:Ljava/util/HashMap;
-
-    const-string v1, "toggleShutdown"
-
-    new-instance v2, Lcom/lidroid/a/b;
-
-    const-string v3, "toggleShutdown"
-
-    const v4, 0x7f080026
-
-    const-string v5, "lidroid:drawable/stat_shutdown"
 
     invoke-direct {v2, v3, v4, v5}, Lcom/lidroid/a/b;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
@@ -280,7 +232,7 @@
 
     if-nez v0, :cond_0
 
-    const-string v0, "toggleWifi|toggleBluetooth|toggleGPS|toggleWimax|toggleMobileData|toggleFlashlight|toggleBrightness|toggleAirplane|toggleSound|toggleAutoRotate|toggleSync|toggleScreenTimeout|toggleLockScreen|toggleReboot|toggleShutdown"
+    const-string v0, "toggleWifi|toggleBluetooth|toggleGPS|toggleWimax|toggleMobileData|toggleSound|toggleSync|toggleAirplane|toggleBrightness|toggleAutoRotate|toggleScreenTimeout|toggleLockScreen"
 
     :cond_0
     return-object v0
