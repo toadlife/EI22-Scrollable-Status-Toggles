@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_rotaryOuterRadiusDIP">390</integer>
+    <integer name="config_rotaryStrokeWidthDIP">83</integer>
+    <integer name="config_rotaryMarginBottomDIP">60</integer>
+    <integer name="config_lenseTimeLabelOffsetDIP">0</integer>
+</resources>

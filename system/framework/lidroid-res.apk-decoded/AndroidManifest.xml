@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:sharedUserId="android.uid.system" android:versionCode="10" android:versionName="2.3.5" android:sharedUserLabel="@string/android_system_label" package="lidroid"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:pluto="http://www.w3.org/2001/pluto.html">
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="10" />
+    <application android:label="@string/android_system_label" android:icon="@drawable/ic_launcher_android" android:allowClearUserData="false" android:hasCode="false" android:persistent="true" android:process="system" android:backupAgent="com.android.server.SystemBackupAgent" android:killAfterRestore="false" />
+</manifest>
